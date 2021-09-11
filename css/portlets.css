@@ -1,0 +1,63 @@
+.column {
+	/*min-width: 25%;
+	width:25%;*/
+	float: left;
+	/*padding-bottom: 10px;*/
+	background-color: white;
+	border: 1px solid #e0dddd;
+	/*padding-left: 10px;
+	padding-top: 10px;*/
+}
+.portlet {
+	margin: 0.7em 0;
+	/*padding: 0.3em;
+	border-radius: 10px;
+	background-color: rgb(241 243 211);*/
+}
+.portlet-header {
+	padding: 0.3em 0.6em;
+	margin-bottom: 0.5em;
+	position: relative;
+	/*border-radius: 10px 10px 0 0;*/
+}
+.portlet-toggle {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -8px;
+	color: white;
+}
+.portlet-content {
+	padding: 0.4em;
+	font-size: 0.9rem;
+}
+.portlet-placeholder {
+	border: 1px dotted black;
+	margin: 0 1em 1em 0;
+	height: 50px;
+}
+.portlet-header i {
+	padding-right: 5px;
+}
+span.badge.badge-pill.pull-right,
+span.badge.badge-pill.badge-primary.pull-right,
+span.badge.badge-pill.badge-info.pull-right,
+span.badge.badge-pill.badge-light.pull-right,
+span.badge.badge-pill.badge-light.pull-right {
+	margin-right: 22px;
+}
+
+.badge-notification {
+	position: absolute;
+	font-size: .6rem;
+	margin-top: -.1rem;
+	margin-left: -.5rem;
+	padding: .2em .45em;
+	color: white;
+	background-color: blue;
+}
+
+.portlet-content p i {
+	padding: 0.3em 0.6em;
+}
+

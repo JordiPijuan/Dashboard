@@ -1,0 +1,223 @@
+a.brand-logo {
+    margin-left: 60px;
+}
+.list-group-item i {
+	padding-right: 5px;
+}
+
+.badge-notification {
+	position: absolute;
+	font-size: .6rem;
+	margin-top: -.1rem;
+	margin-left: -.5rem;
+	padding: .2em .45em;
+	color: white;
+	background-color: blue;
+}
+
+.dropdown-item i {
+	padding-right: 10px;
+}
+
+.border-left-success {
+    border-left: .25rem solid #1cc88a!important;
+}
+
+.border-left-primary {
+    border-left: .25rem solid #4e73df!important;
+}
+
+.border-left-info {
+    border-left: .25rem solid #36b9cc!important;
+}
+.border-left-warning {
+    border-left: .25rem solid #f6c23e!important;
+}
+
+.border-left-danger {
+    border-left: .25rem solid #e74a3b!important;
+}
+
+.card-stats .card-body {
+    padding: 15px 15px 0
+}
+
+.card-stats .card-body .numbers {
+    text-align: right;
+    font-size: 2em
+}
+
+.card-stats .card-body .numbers p {
+    margin-bottom: 0
+}
+
+.card-stats .card-body .numbers .card-category {
+    color: #9a9a9a;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+.card-stats .card-footer {
+    padding: 0 15px 15px;
+}
+
+.card-stats .card-footer .stats {
+    color: #9a9a9a
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.card-body-primary,
+.card-footer-primary {
+    background-color: rgba(0,123,255,.08);
+}
+
+.card-body-success,
+.card-footer-success {
+    background-color: rgba(5,245,60,.08);
+}
+
+.card-body-warning,
+.card-footer-warning {
+    background-color: rgba(255,191,0,.08);
+}
+
+.card-body-danger,
+.card-footer-danger {
+    background-color: rgba(247,5,10,.08);
+}
+
+.card-stats .card-footer hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+	border: 0;
+}
+
+.card-stats .icon-big {
+    font-size: 3em;
+    min-height: 64px;
+}
+
+.card-stats .icon-big i {
+    line-height: 59px;
+}
+
+
+.car-title {
+	color: #9c9c9c;
+	font-size: 2em;!important;
+}
+
+@font-face {
+    font-family: interpartner;
+    src: url(../vendor/interpartner/fonts/interpartner.eot);
+    src: url(../vendor/interpartner/fonts/interpartner.eot) format("embedded-opentype"),url(../vendor/interpartner/fonts/interpartner.woff) format("woff"),url(../vendor/interpartner/fonts/interpartner.ttf) format("truetype"),url(../vendor/interpartner/fonts/interpartner.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nc-icon {
+    display: inline-block;
+    font: normal normal normal 18px/1 interpartner;
+    font-size: inherit;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nc-icon.lg {
+    font-size: 1.33333333em;
+    vertical-align: -16%;
+}
+
+.nc-icon.x2 {
+    font-size: 2em
+}
+
+.nc-icon.x3 {
+    font-size: 3em
+}
+
+.nc-icon.circle,.nc-icon.square {
+    padding: .33333333em;
+    vertical-align: -16%;
+    background-color: #eee
+}
+
+.nc-icon.circle {
+    border-radius: 50%
+}
+
+.nc-icon-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none
+}
+
+.nc-icon-ul>li {
+    position: relative
+}
+
+.nc-icon-ul>li>.nc-icon {
+    position: absolute;
+    left: -1.57142857em;
+    top: .14285714em;
+    text-align: center
+}
+
+.nc-icon-ul>li>.nc-icon.lg {
+    top: 0;
+    left: -1.35714286em
+}
+
+.nc-icon-ul>li>.nc-icon.circle,.nc-icon-ul>li>.nc-icon.square {
+    top: -.19047619em;
+    left: -1.9047619em
+}
+
+.nc-icon.spin {
+    animation: f 2s infinite linear
+}
+
+.traffic-source {
+    text-align: center;
+}
+
+.traffic-source .svg-container {
+    width: 100px;
+    margin: -10px auto 0 auto;
+}
+
+.invoices-status p {
+    padding: 0;
+    margin: 0;
+    font-size: .8rem;
+	color: black;
+}
+
+.invoices-status h5 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.invoices-status h5 i{
+    margin-right: 5px;
+}
+
+.invoices-status .progress {
+    margin: 0 0 15px 0;
+    height: 6px;
+}
+.progress {
+    margin-bottom: 1rem;
+    border: 0;
+    background: #f2f4f9;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
